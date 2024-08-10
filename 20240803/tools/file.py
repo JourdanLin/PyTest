@@ -5,7 +5,9 @@ import random
 
 def created_log_file(file:str,folder:str='data')->str:
     current_path = os.path.abspath(__name__) #取得目前檔案路徑
+    print(current_path +'/n')
     directory_name = os.path.dirname(current_path) #取得目前資料夾路行
+    print(directory_name+'/n')
     data_path = os.path.join(directory_name,folder) #目前資料夾路徑加上data目錄
     if not os.path.isdir(data_path):
         print(f"沒有{folder}的目錄,手動建立目錄")
