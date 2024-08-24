@@ -3,3 +3,8 @@ RPi.GPIO
 lgpio
 gpiozero
 paho-mqtt
+python-dotenv
+streamlit
+pandas
+streamlit-autorefresh
+
